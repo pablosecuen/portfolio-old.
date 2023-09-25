@@ -14,7 +14,7 @@ export default function Home() {
     setLanguage(language === "en" ? "es" : "en");
   };
   return (
-    <main className="flex min-h-screen  max-w-screen  flex-col items-center justify-between">
+    <main className="flex min-h-screen  max-w-screen bg-darkbg flex-col items-center justify-between">
       <LanguageToggle onToggle={toggleLanguage} />
       <About language={language} />
       <ActionMenu />
