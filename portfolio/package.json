@@ -1,0 +1,38 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@vercel/analytics": "^1.0.1",
+    "animate.css": "^4.1.1",
+    "animejs": "^3.2.1",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^10.3.2",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-modal": "^3.16.1",
+    "react-responsive": "^9.0.2",
+    "react-scroll-parallax": "^3.4.2"
+  },
+  "devDependencies": {
+    "@types/animejs": "^3.1.8",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-modal": "^3.16.0",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
