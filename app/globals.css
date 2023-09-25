@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
+    rgb(var(--background-start-rgb));
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  max-width: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #132c2f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bfe5ab;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff9b0;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/assets/font/Roboto-Black.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-BlackItalic.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-Bold.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-BoldItalic.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-Italic.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-Light.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-LightItalic.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-Medium.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-MediumItalic.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-Regular.ttf") format("truetype"),
+    url("../public/assets/font/Roboto-Thin.ttf") format("truetype");
+  /* Add any additional font formats as needed */
+}
